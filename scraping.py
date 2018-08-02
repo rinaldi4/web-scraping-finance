@@ -13,9 +13,9 @@ class Stock_object():
         self.tckr = tckr
         self.last_close = 0
         self.market_cap = 0
-        self.income_csv = 'C:\\Users\\antho\\Desktop\\web-scraping finance\\CSV Data\\' + tckr.lower() + '-income.csv'
-        self.balance_csv = 'C:\\Users\\antho\\Desktop\\web-scraping finance\\CSV Data\\' + tckr.lower() + '-balance.csv'
-        self.cash_csv = 'C:\\Users\\antho\\Desktop\\web-scraping finance\\CSV Data\\' + tckr.lower() + '-cash.csv'
+        self.income_csv = 'C:\\your\\file\\path' + tckr.lower() + '-income.csv'
+        self.balance_csv = 'C:\\your\\file\\path' + tckr.lower() + '-balance.csv'
+        self.cash_csv = 'C:\\your\\file\\path' + tckr.lower() + '-cash.csv'
         
         self.get_stock_data()
         self.get_csv_file('income')
